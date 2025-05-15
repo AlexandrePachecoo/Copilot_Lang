@@ -8,12 +8,15 @@
     "start": "electron ."
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "copilot-langs"
   },
   "author": "Alexandre Santanna",
   "license": "ISC",
   "devDependencies": {
     "electron": "^36.2.0"
+  },
+  "dependencies": {
+    "openai": "^4.98.0"
   }
 }
